@@ -1,0 +1,36 @@
+{!userName ? <LoginBtn onClick={handleAuth}>Login</LoginBtn> :
+                <>
+                    <NavMenu>
+                        <a>
+                            <img src="/images/home-icon.svg" />
+                            <span>Home</span>
+                        </a>
+
+                        <a>
+                            <img src="/images/search-icon.svg" />
+                            <span>Search</span>
+                        </a>
+
+                        <a>
+                            <img src="/images/watchlist-icon.svg" />
+                            <span>WhatchList</span>
+                        </a>
+
+                        <a>
+                            <img src="/images/original-icon.svg" />
+                            <span>original</span>
+                        </a>
+
+                        <a>
+                            <img src="/images/movie-icon.svg" />
+                            <span>Movie</span>
+                        </a>
+
+                        <a>
+                            <img src="/images/series-icon.svg" />
+                            <span>Series</span>
+                        </a>
+                    </NavMenu>
+                    <UserImg src={userPhoto}  alt={userName}/>
+                </>
+            }
